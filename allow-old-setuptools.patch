@@ -1,0 +1,15 @@
+diff --git a/setup.py b/setup.py
+index da272db..2c6ebd4 100644
+--- a/setup.py
++++ b/setup.py
+@@ -13,9 +13,7 @@ install_requires = [
+     'mock',
+     'PyOpenSSL',
+     'pyparsing>=1.5.5',  # Python3 support; perhaps unnecessary?
+-    # For pkg_resources. >=1.0 so pip resolves it to a version cryptography
+-    # will tolerate; see #2599:
+-    'setuptools>=1.0',
++    'setuptools',
+     'zope.interface',
+ ]
+ 
