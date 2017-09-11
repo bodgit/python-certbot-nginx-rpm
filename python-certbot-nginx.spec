@@ -8,8 +8,8 @@
 %endif
 
 Name:       python-%{pyname}
-Version:    0.14.1
-Release:    2%{?dist}
+Version:    0.18.1
+Release:    1%{?dist}
 Summary:    The nginx plugin for certbot
 
 License:    ASL 2.0
@@ -128,6 +128,9 @@ Plugin for certbot that allows for automatic configuration of nginx
 %endif
 
 %changelog
+* Mon Sep 11 2017 Nick Bebout <nb@fedoraproject.org> - 0.18.1-1
+- Update to 0.18.1
+
 * Thu Jul 27 2017 Fedora Release Engineering <releng@fedoraproject.org> - 0.14.1-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
 
